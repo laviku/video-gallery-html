@@ -1,0 +1,45 @@
+.swiper {
+    @apply xl:px-3;
+
+    &-custom-button-prev,
+    &-custom-button-next {
+        align-items: center;
+        display: flex;
+        height: 36px;
+        justify-content: center;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 36px;
+        z-index: 9;
+    }
+
+    &-custom-button-prev {
+        left: 0px;
+    }
+
+    &-custom-button-next {
+        right: 0px;
+    }
+}
+
+@screen lg {
+    .swiper-two-col {
+        .swiper-slide-active {
+            justify-items: end;
+        }
+        .swiper-slide-next {
+            justify-items: start;
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: -30%;
+                width: 1px;
+                background-color: #eee;
+            }
+        }
+    }
+}

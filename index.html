@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Gallery Elements</title>
+  </head>
+  <body class="py-8">
+    <h1 class="text-3xl font-bold text-center">Elementos <i class="fas fa-coffee"></i></h1>
+
+    <div class="container text-center w-11/12 mx-auto mt-10">
+        <h2>Video Card</h2>
+    </div>
+
+    <div class="container text-center w-4/12 mx-auto mt-10">
+        <div class="video-card">
+            <div class="video-header flex gap-3 mb-3">
+                <div class="video-user-avatar rounded-full w-8 h-8 overflow-hidden">
+                    <img src="/src/img/woman-731894_640.jpg" alt="" class="h-full w-full object-cover">
+                </div>
+                <div class="video-user-data">
+                    <h5 class="text-xs font-bold">Jane Doe</h5>
+                    <p class="text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="video-container relative mb-3">
+                <div class="video-image-preview w-full h-80">
+                    <img src="/src/img/monkeys-2500916_640.jpg" class="h-full w-full object-cover" alt="">
+                </div>
+                <div class="video-duration absolute left-0 bottom-0 bg-black p-1 text-white text-[10px] font-medium">
+                    <i class="fa-regular fa-clock"></i> 05:30
+                </div>
+                <div class="video-overlay bg-black opacity-20 absolute z-10 h-full w-full top-0 left-0"></div>
+                <button type="button" class="text-white w-full h-full text-[40px] absolute z-20 left-0 top-0 hover:text-yellow-300">
+                    <i class="fa-regular fa-circle-play"></i>
+                </button>
+            </div>
+            <div class="video-info">
+                <h4 class="font-medium text-base">Video Title</h4>
+                <p class="text-sm text-gray-500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui minima tenetur veritatis rerum odit veniam vel.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center w-11/12 mx-auto mt-10">
+        <h2>Layout 1</h2>
+    </div>
+
+    <div class="container w-11/12 mx-auto">
+        <div class="swiper swiper-four-col my-8">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="video-card">
+                        <div class="video-header flex gap-3 mb-3">
+                            <div class="video-user-avatar rounded-full w-8 h-8 overflow-hidden">
+                                <img src="/src/img/woman-731894_640.jpg" alt="" class="h-full w-full object-cover">
+                            </div>
+                            <div class="video-user-data">
+                                <h5 class="text-xs font-bold">Jane Doe</h5>
+                                <p class="text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                        <div class="video-container relative mb-3">
+                            <div class="video-image-preview w-full h-80">
+                                <img src="/src/img/monkeys-2500916_640.jpg" class="h-full w-full object-cover" alt="">
+                            </div>
+                            <div class="video-duration absolute left-0 bottom-0 bg-black p-1 text-white text-[10px] font-medium">
+                                <i class="fa-regular fa-clock"></i> 05:30
+                            </div>
+                            <div class="video-overlay bg-black opacity-20 absolute z-10 h-full w-full top-0 left-0"></div>
+                            <button type="button" data-video-id="112836958" class="open-modal text-white w-full h-full text-[40px] absolute z-20 left-0 top-0 hover:text-yellow-300" aria-haspopup="dialog" aria-expanded="false" aria-controls="video-modal" data-hs-overlay="#video-modal">
+                                <i class="fa-regular fa-circle-play"></i>
+                            </button>
+                        </div>
+                        <div class="video-info">
+                            <h4 class="font-medium text-base">Video Title</h4>
+                            <p class="text-sm text-gray-500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui minima tenetur veritatis rerum odit veniam vel.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="video-card">
+                        <div class="video-header flex gap-3 mb-3">
+                            <div class="video-user-avatar rounded-full w-8 h-8 overflow-hidden">
+                                <img src="/src/img/woman-731894_640.jpg" alt="" class="h-full w-full object-cover">
+                            </div>
+                            <div class="video-user-data">
+                                <h5 class="text-xs font-bold">Jane Doe</h5>
+                                <p class="text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                        <div class="video-container relative mb-3">
+                            <div class="video-image-preview w-full h-80">
+                                <img src="/src/img/cheetahs-5689873_640.jpg" class="h-full w-full object-cover" alt="">
+                            </div>
+                            <div class="video-duration absolute left-0 bottom-0 bg-black p-1 text-white text-[10px] font-medium">
+                                <i class="fa-regular fa-clock"></i> 05:30
+                            </div>
+                            <div class="video-overlay bg-black opacity-20 absolute z-10 h-full w-full top-0 left-0"></div>
+                            <button type="button" data-video-id="10450125" class="open-modal text-white w-full h-full text-[40px] absolute z-20 left-0 top-0 hover:text-yellow-300">
+                                <i class="fa-regular fa-circle-play"></i>
+                            </button>
+                        </div>
+                        <div class="video-info">
+                            <h4 class="font-medium text-base">Video Title</h4>
+                            <p class="text-sm text-gray-500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui minima tenetur veritatis rerum odit veniam vel.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="video-card">
+                        <div class="video-header flex gap-3 mb-3">
+                            <div class="video-user-avatar rounded-full w-8 h-8 overflow-hidden">
+                                <img src="/src/img/woman-731894_640.jpg" alt="" class="h-full w-full object-cover">
+                            </div>
+                            <div class="video-user-data">
+                                <h5 class="text-xs font-bold">Jane Doe</h5>
+                                <p class="text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                        <div class="video-container relative mb-3">
+                            <div class="video-image-preview w-full h-80">
+                                <img src="/src/img/toucan-8933106_640.jpg" class="h-full w-full object-cover" alt="">
+                            </div>
+                            <div class="video-duration absolute left-0 bottom-0 bg-black p-1 text-white text-[10px] font-medium">
+                                <i class="fa-regular fa-clock"></i> 05:30
+                            </div>
+                            <div class="video-overlay bg-black opacity-20 absolute z-10 h-full w-full top-0 left-0"></div>
+                            <button type="button" data-video-id="223091541" class="open-modal text-white w-full h-full text-[40px] absolute z-20 left-0 top-0 hover:text-yellow-300">
+                                <i class="fa-regular fa-circle-play"></i>
+                            </button>
+                        </div>
+                        <div class="video-info">
+                            <h4 class="font-medium text-base">Video Title</h4>
+                            <p class="text-sm text-gray-500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui minima tenetur veritatis rerum odit veniam vel.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="video-card">
+                        <div class="video-header flex gap-3 mb-3">
+                            <div class="video-user-avatar rounded-full w-8 h-8 overflow-hidden">
+                                <img src="/src/img/woman-731894_640.jpg" alt="" class="h-full w-full object-cover">
+                            </div>
+                            <div class="video-user-data">
+                                <h5 class="text-xs font-bold">Jane Doe</h5>
+                                <p class="text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                        <div class="video-container relative mb-3">
+                            <div class="video-image-preview w-full h-80">
+                                <img src="/src/img/nature-1281689_640.jpg" class="h-full w-full object-cover" alt="">
+                            </div>
+                            <div class="video-duration absolute left-0 bottom-0 bg-black p-1 text-white text-[10px] font-medium">
+                                <i class="fa-regular fa-clock"></i> 05:30
+                            </div>
+                            <div class="video-overlay bg-black opacity-20 absolute z-10 h-full w-full top-0 left-0"></div>
+                            <button type="button" data-video-id="223091541" class="open-modal text-white w-full h-full text-[40px] absolute z-20 left-0 top-0 hover:text-yellow-300">
+                                <i class="fa-regular fa-circle-play"></i>
+                            </button>
+                        </div>
+                        <div class="video-info">
+                            <h4 class="font-medium text-base">Video Title</h4>
+                            <p class="text-sm text-gray-500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui minima tenetur veritatis rerum odit veniam vel.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="video-card">
+                        <div class="video-header flex gap-3 mb-3">
+                            <div class="video-user-avatar rounded-full w-8 h-8 overflow-hidden">
+                                <img src="/src/img/woman-731894_640.jpg" alt="" class="h-full w-full object-cover">
+                            </div>
+                            <div class="video-user-data">
+                                <h5 class="text-xs font-bold">Jane Doe</h5>
+                                <p class="text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                        <div class="video-container relative mb-3">
+                            <div class="video-image-preview w-full h-80">
+                                <img src="/src/img/toucan-8933106_640.jpg" class="h-full w-full object-cover" alt="">
+                            </div>
+                            <div class="video-duration absolute left-0 bottom-0 bg-black p-1 text-white text-[10px] font-medium">
+                                <i class="fa-regular fa-clock"></i> 05:30
+                            </div>
+                            <div class="video-overlay bg-black opacity-20 absolute z-10 h-full w-full top-0 left-0"></div>
+                            <button type="button" data-video-id="223091541" class="open-modal text-white w-full h-full text-[40px] absolute z-20 left-0 top-0 hover:text-yellow-300">
+                                <i class="fa-regular fa-circle-play"></i>
+                            </button>
+                        </div>
+                        <div class="video-info">
+                            <h4 class="font-medium text-base">Video Title</h4>
+                            <p class="text-sm text-gray-500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui minima tenetur veritatis rerum odit veniam vel.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-custom-button-prev border-solid border-2 border-black bg-white"><i class="fa-solid fa-left-long"></i></div>
+            <div class="swiper-custom-button-next border-solid border-2 border-black bg-white"><i class="fa-solid fa-right-long"></i></div>
+        </div>
+    </div>
+
+    <div class="container text-center w-11/12 mx-auto mt-10">
+        <h2>Layout 2</h2>
+    </div>
+
+    <div class="container w-11/12 mx-auto">
+        <div class="swiper swiper-two-col my-8">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="video-card lg:w-[480px]">
+                        <div class="video-container relative mb-3">
+                            <div class="video-image-preview w-full h-80">
+                                <img src="/src/img/monkeys-2500916_640.jpg" class="h-full w-full object-cover" alt="">
+                            </div>
+                            <div class="video-duration absolute left-0 bottom-0 bg-black p-1 text-white text-[10px] font-medium">
+                                <i class="fa-regular fa-clock"></i> 05:30
+                            </div>
+                            <div class="video-overlay bg-black opacity-20 absolute z-10 h-full w-full top-0 left-0"></div>
+                            <button type="button" data-video-id="112836958" class="open-modal text-white w-full h-full text-[40px] absolute z-20 left-0 top-0 hover:text-yellow-300" aria-haspopup="dialog" aria-expanded="false" aria-controls="video-modal" data-hs-overlay="#video-modal">
+                                <i class="fa-regular fa-circle-play"></i>
+                            </button>
+                        </div>
+                        <div class="video-info text-center">
+                            <h4 class="font-medium text-base">Video Title</h4>
+                            <p class="text-sm text-gray-500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui minima tenetur veritatis rerum odit veniam vel.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="video-card lg:w-[480px]">
+                        <div class="video-container relative mb-3">
+                            <div class="video-image-preview w-full h-80">
+                                <img src="/src/img/cheetahs-5689873_640.jpg" class="h-full w-full object-cover" alt="">
+                            </div>
+                            <div class="video-duration absolute left-0 bottom-0 bg-black p-1 text-white text-[10px] font-medium">
+                                <i class="fa-regular fa-clock"></i> 05:30
+                            </div>
+                            <div class="video-overlay bg-black opacity-20 absolute z-10 h-full w-full top-0 left-0"></div>
+                            <button type="button" data-video-id="10450125" class="open-modal text-white w-full h-full text-[40px] absolute z-20 left-0 top-0 hover:text-yellow-300">
+                                <i class="fa-regular fa-circle-play"></i>
+                            </button>
+                        </div>
+                        <div class="video-info text-center">
+                            <h4 class="font-medium text-base">Video Title</h4>
+                            <p class="text-sm text-gray-500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui minima tenetur veritatis rerum odit veniam vel.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="video-card lg:w-[480px]">
+                        <div class="video-container relative mb-3">
+                            <div class="video-image-preview w-full h-80">
+                                <img src="/src/img/toucan-8933106_640.jpg" class="h-full w-full object-cover" alt="">
+                            </div>
+                            <div class="video-duration absolute left-0 bottom-0 bg-black p-1 text-white text-[10px] font-medium">
+                                <i class="fa-regular fa-clock"></i> 05:30
+                            </div>
+                            <div class="video-overlay bg-black opacity-20 absolute z-10 h-full w-full top-0 left-0"></div>
+                            <button type="button" data-video-id="223091541" class="open-modal text-white w-full h-full text-[40px] absolute z-20 left-0 top-0 hover:text-yellow-300">
+                                <i class="fa-regular fa-circle-play"></i>
+                            </button>
+                        </div>
+                        <div class="video-info text-center">
+                            <h4 class="font-medium text-base">Video Title</h4>
+                            <p class="text-sm text-gray-500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui minima tenetur veritatis rerum odit veniam vel.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="video-card lg:w-[480px]">
+                        <div class="video-container relative mb-3">
+                            <div class="video-image-preview w-full h-80">
+                                <img src="/src/img/nature-1281689_640.jpg" class="h-full w-full object-cover" alt="">
+                            </div>
+                            <div class="video-duration absolute left-0 bottom-0 bg-black p-1 text-white text-[10px] font-medium">
+                                <i class="fa-regular fa-clock"></i> 05:30
+                            </div>
+                            <div class="video-overlay bg-black opacity-20 absolute z-10 h-full w-full top-0 left-0"></div>
+                            <button type="button" data-video-id="223091541" class="open-modal text-white w-full h-full text-[40px] absolute z-20 left-0 top-0 hover:text-yellow-300">
+                                <i class="fa-regular fa-circle-play"></i>
+                            </button>
+                        </div>
+                        <div class="video-info text-center">
+                            <h4 class="font-medium text-base">Video Title</h4>
+                            <p class="text-sm text-gray-500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui minima tenetur veritatis rerum odit veniam vel.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="video-card lg:w-[480px]">
+                        <div class="video-container relative mb-3">
+                            <div class="video-image-preview w-full h-80">
+                                <img src="/src/img/toucan-8933106_640.jpg" class="h-full w-full object-cover" alt="">
+                            </div>
+                            <div class="video-duration absolute left-0 bottom-0 bg-black p-1 text-white text-[10px] font-medium">
+                                <i class="fa-regular fa-clock"></i> 05:30
+                            </div>
+                            <div class="video-overlay bg-black opacity-20 absolute z-10 h-full w-full top-0 left-0"></div>
+                            <button type="button" data-video-id="223091541" class="open-modal text-white w-full h-full text-[40px] absolute z-20 left-0 top-0 hover:text-yellow-300">
+                                <i class="fa-regular fa-circle-play"></i>
+                            </button>
+                        </div>
+                        <div class="video-info">
+                            <h4 class="font-medium text-base">Video Title</h4>
+                            <p class="text-sm text-gray-500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui minima tenetur veritatis rerum odit veniam vel.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-custom-button-prev border-solid border-2 border-black bg-white"><i class="fa-solid fa-left-long"></i></div>
+            <div class="swiper-custom-button-next border-solid border-2 border-black bg-white"><i class="fa-solid fa-right-long"></i></div>
+        </div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+    <script src="https://player.vimeo.com/api/player.js"></script>
+  </body>
+</html>

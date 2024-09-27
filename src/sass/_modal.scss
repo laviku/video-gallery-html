@@ -1,0 +1,38 @@
+.modal-video {
+    @apply relative z-40;
+    /* hidden */
+
+    &-overlay {
+        @apply fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity;
+    }
+
+    &-wrapper {
+        @apply fixed inset-0 z-10 w-screen overflow-y-auto;
+    }
+
+    &-container {
+        @apply flex min-h-full items-center justify-center p-4 text-center sm:items-center sm:p-0;
+    }
+
+    &-panel {
+        @apply relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg w-80 p-3 text-center;
+    }
+
+    &-content {
+        @apply bg-white px-4 pb-4 pt-5 sm:p-6 sm:pb-4 w-full;
+    
+        position: relative;
+        overflow: hidden;
+        padding-top: 56.25%;
+
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
